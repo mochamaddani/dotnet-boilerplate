@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
-namespace SampleLibrary.Api
+namespace Api
 {
     public class Startup
     {
@@ -25,7 +25,7 @@ namespace SampleLibrary.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Sample Library ",
+                    Title = "Dotnet Boilerplate",
                     Version = "v1",
                 });
             });
