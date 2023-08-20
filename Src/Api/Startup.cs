@@ -39,7 +39,7 @@ namespace SampleLibrary.Api
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SampleLibrary");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Dotnet Boilerplate");
                 c.DocExpansion(DocExpansion.None);
             });
 
